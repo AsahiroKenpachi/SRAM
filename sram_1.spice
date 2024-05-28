@@ -1,0 +1,10 @@
+* SPICE3 file created from sram_1.ext - technology: sky130A
+
+.subckt sram_1 bl gnd bl' vdd
+X0 vdd a_0_n425# a_n195_n300# vdd sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X1 gnd a_0_n425# a_n195_n300# gnd sky130_fd_pr__nfet_01v8 ad=0.4 pd=2.8 as=0.4 ps=2.8 w=1 l=0.15
+X2 a_0_n425# a_n195_n300# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X3 a_n195_n300# a_n235_n190# bl gnd sky130_fd_pr__nfet_01v8 ad=0.45 pd=2.9 as=0.4 ps=2.8 w=1 l=0.15
+X4 bl' a_570_n190# a_0_n425# gnd sky130_fd_pr__nfet_01v8 ad=0.4 pd=2.8 as=0.45 ps=2.9 w=1 l=0.15
+X5 a_0_n425# a_n195_n300# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.4 pd=2.8 as=0.4 ps=2.8 w=1 l=0.15
+.ends
